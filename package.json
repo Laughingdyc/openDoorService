@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "prd": "cross-env NODE_ENV=production pm2 node app.js",
   },
   "author": "",
   "license": "ISC",
