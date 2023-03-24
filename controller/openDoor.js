@@ -11,23 +11,23 @@ const open = async (ctx) => {
             "gate_id": "66968"
         },
         headers: {
-            // "connection": "keep-alive",
-            // "content-length": "13",
-            // "Accept": "application/json, text/plain, */*",
-            // "X-Requested-With": "XMLHttpRequest",
-            // "Content-Type": "application/x-www-form-urlencoded",
-            // "Origin": "https://s.weekey.cn",
-            // "Sec-Fetch-Site": "same-origin",
-            // "Sec-Fetch-Mode": "cors",
-            // "Sec-Fetch-Dest": "empty",
-            // "Referer": "https://s.weekey.cn/mobile_v2/unlock/unlock?token=gh_92a097477318",
-            // "Accept-Encoding": "gzip, deflate",
-            // "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+            "connection": "keep-alive",
+            "content-length": "13",
+            "Accept": "application/json, text/plain, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Origin": "https://s.weekey.cn",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Referer": "https://s.weekey.cn/mobile_v2/unlock/unlock?token=gh_92a097477318",
+            "Accept-Encoding": "gzip, deflate",
+            "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
             Cookie: "PHPSESSID=pi9chglcavpov3iap2a91oi5u5; tgw_l7_route=0002f74b7ae2420dfb0cfa5266f1c369"
         },
         // Cookie: {
         //     "PHPSESSID": "pi9chglcavpov3iap2a91oi5u5",
-        //     "tgw_l7_route": "2f7677f67627cdd752e69e0f729a97b5",
+        //     "tgw_l7_route": "0002f74b7ae2420dfb0cfa5266f1c369",
         // },
         httpsAgent: httpsAgent
     }).then(res => {
